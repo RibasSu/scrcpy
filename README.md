@@ -31,6 +31,11 @@ Se você quiser rodar sempre o comando `scrcpy-wifi` sem precisar digitar o link
 echo 'scrcpy-wifi() { bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.bashrc
 source ~/.bashrc
 ```
+ou 
+```bash
+echo 'scrcpy-wifi() { bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.zshrc
+source ~/.zshrc
+```
 
 Agora basta executar:
 
