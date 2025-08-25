@@ -10,13 +10,13 @@ Ele salva os dispositivos já configurados para que você possa se conectar rapi
 Se você só quiser rodar o script uma vez sem precisar baixar nada, basta usar:
 
 ```bash
-curl -s https://scrcpy.sh.net.br/ | bash
+sudo url -s https://scrcpy.sh.net.br/ | bash
 ````
 
 ou, se preferir `wget`:
 
 ```bash
-wget -qO- https://scrcpy.sh.net.br/ | bash
+sudo wget -qO- https://scrcpy.sh.net.br/ | bash
 ```
 
 ⚠️ Use esse formato apenas em scripts de **fonte confiável** (como este que você mesmo hospedou).
@@ -81,9 +81,4 @@ Escolha o dispositivo (número) [1]:
 Livre para uso pessoal.
 Contribuições são bem-vindas!
 
-```
-
----
-
-👉 Quer que eu também prepare um **badge do GitHub Actions** (pra quando você colocar isso num repositório do GitHub) mostrando que o script está “buildado/testado”, ou prefere manter só o README simples mesmo?
 ```
