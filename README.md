@@ -80,5 +80,3 @@ Escolha o dispositivo (número) [1]:
 
 Livre para uso pessoal.
 Contribuições são bem-vindas!
-
-```
