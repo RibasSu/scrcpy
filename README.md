@@ -1,6 +1,3 @@
-Perfeito 👍 vou montar um `README.md` simples, bonito e direto ao ponto, cobrindo **os dois modos de uso** que você quer documentar:
-
-````markdown
 # scrcpy-full-setup
 
 Script para instalar, configurar e conectar o **scrcpy** via Wi-Fi de forma simples e amigável.  
