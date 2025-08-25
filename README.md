@@ -27,13 +27,17 @@ sudo wget -qO- https://scrcpy.sh.net.br/ | bash
 
 Se você quiser rodar sempre o comando `scrcpy-wifi` sem precisar digitar o link:
 
+### Para Bash
+
 ```bash
-echo 'scrcpy-wifi() { sudo bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.bashrc
+echo 'scrcpy-wifi() { bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.bashrc
 source ~/.bashrc
 ```
-ou 
+
+### Para Zsh
+
 ```bash
-echo 'scrcpy-wifi() { sudo bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.zshrc
+echo 'scrcpy-wifi() { bash <(curl -s https://scrcpy.sh.net.br/); }' >> ~/.zshrc
 source ~/.zshrc
 ```
 
