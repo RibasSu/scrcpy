@@ -1,4 +1,4 @@
-# scrcpy-full-setup
+# Scrcpy Full Setup
 
 Script para instalar, configurar e conectar o **scrcpy** via Wi-Fi de forma simples e amigável.  
 Ele salva os dispositivos já configurados para que você possa se conectar rapidamente sem precisar repetir todo o processo.
